@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fc;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .articles-section {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px auto;
+    width: 80px;
+  }
+  
+  .article {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .article-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .article-image-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    margin-right: 20px;
+  }
+  
+  .article-content {
+    text-align: left;
+  }
+  
+  .article-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .article-content p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  .first-article .image-wrapper {
+    margin-right: 40px; /* Ajusta el margen a la derecha solo para la primera imagen */
+  }
+  
+  .first-article .article-content {
+    padding-left: 40px; /* Ajusta el padding a la izquierda solo para el contenido de la primera imagen */
+  }
+  
+  
